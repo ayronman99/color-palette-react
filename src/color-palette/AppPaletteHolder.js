@@ -34,7 +34,7 @@ function Content(props) {
                  <div className={classes.page}>
                     <Routes location={location}>
                          
-                            <Route path='/' 
+                            <Route path='/color-palette-react' 
                                 element={<PaletteList palettes={palettes} 
                                 deletePalette={deletePalette}/>} 
                             />
