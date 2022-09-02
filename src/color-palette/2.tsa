@@ -5,6 +5,7 @@ import AppPaletteHolder from './color-palette/AppPaletteHolder';
 function App() {
   return (
     <div className='App'>
+     {/* <Pokegame /> ||  <Jokerist /> */}
      <AppPaletteHolder />
     </div>
   );
