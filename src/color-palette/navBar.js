@@ -32,10 +32,10 @@ class Navbar extends Component {
         return (
             <header className={classes.navbar}>
                 <div className={classes.logo}>
-                    <Link to='/'>ReactColorPicker</Link>
+                    <Link to='/color-palette-react'>ReactColorPicker</Link>
                 </div>
                 <div className={classes.goBack}>
-                 <Link  to='/'><ArrowBackIcon /></Link>
+                 <Link to='/color-palette-react'><ArrowBackIcon /></Link>
                 </div>
                 {showLeveler && (<div>
                     <span>Level: {leveler} </span>
