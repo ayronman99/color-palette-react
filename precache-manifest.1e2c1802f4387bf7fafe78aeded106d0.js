@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "fdfdeb039b1888fdbacf",
+    "revision": "7a509d2cdd136e696525",
     "url": "/color-palette-react/static/css/main.1d9529ef.chunk.css"
   },
   {
-    "revision": "fdfdeb039b1888fdbacf",
-    "url": "/color-palette-react/static/js/main.95bfa177.chunk.js"
+    "revision": "7a509d2cdd136e696525",
+    "url": "/color-palette-react/static/js/main.a9b24736.chunk.js"
   },
   {
     "revision": "bb1a71bca833acaa2751",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/color-palette-react/static/media/bg.b3595806.svg"
   },
   {
-    "revision": "2bad64e2782b78a7090ea09dec75b3bd",
+    "revision": "2c270bd1e6b090b2fb7a9951a78a316b",
     "url": "/color-palette-react/index.html"
   }
 ];
