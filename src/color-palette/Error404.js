@@ -8,7 +8,7 @@ function NotFound(){
         <div>
             <h1>
                 Sorry the path you have taken does not exist!
-                Lets go <Link to="/">back home</Link>.
+                Lets go <Link to="/color-palette-react">back home</Link>.
             </h1>
         </div>
     )

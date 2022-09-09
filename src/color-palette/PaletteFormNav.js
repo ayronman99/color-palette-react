@@ -56,7 +56,7 @@ class PaletteFormNav extends Component{
                 Save
               </Button>
 
-              <Link to="/">
+              <Link to="/color-palette-react">
                     <Button className={classes.saveBtns} variant="contained" color="secondary"> Go Back</Button>
                 </Link>
               </div>

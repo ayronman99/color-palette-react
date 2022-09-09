@@ -22,14 +22,7 @@ function NewPaletteForm(props){
     const { classes, theme, handlePaletteSaver, paletteInfo, maxColors = 20 } = props;
     const [open, SetOpen] = useState(false);
     const [colors, SetColors] = useState(seedColors[0].colors);
-    // const [stateNameSetter, SetStateNameSetter] = useState({colorName: "", paletteName: ""});
-
-
-    /* useEffect(() => {
-          Exported to ColorPickerForm.js  
-     }) */
   
-
    const handleDrawerOpen = () => {
       SetOpen(true);
     };
@@ -43,21 +36,10 @@ function NewPaletteForm(props){
       SetColors([...colors, newColor]);
     }
 
-  //  const handleTextValidator  = ({ target: { name, value } }) => {
-  //   SetStateNameSetter({ ...stateNameSetter, hasChanged: true, [name]: value });
-  // }; ------>>>>>>> Moved to seperate function on ColorPickerForm.js && NewPaletteForm
-
    const paletteSaver = (newPalette) => {
       newPalette.id = newPalette.paletteName.toLowerCase().replace(/ /g, "-");
       newPalette.colors = colors
-
-    //  const createPalette = {
-    //    paletteName: newPaletteName,
-    //    id: newPaletteName.toLowerCase().replace(/ /g, "-"),
-    //    colors: colors
-    //   }
-     console.log(handlePaletteSaver(newPalette));
-     redirector('/')
+      redirector('/color-palette-react')
    }
 
    const colorDelete = colorName => {
